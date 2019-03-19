@@ -1,0 +1,11 @@
+Reference
+[PAPER] http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf
+[PAPER] https://www.lri.fr/~isenberg/publications/papers/Isenberg_2011_ASO.pdf
+[Best Practice] https://stats.stackexchange.com/questions/32290/how-to-visualize-two-bar-charts-with-very-different-scales-without-looking-redun
+[Best Practice] https://infogram.com/blog/dataviz-101-dual-axis-charts/
+
+
+Data
+[processed] https://en.wikipedia.org/wiki/Suicide_in_the_United_States
+[processed] https://afsp.org/about-suicide/suicide-statistics/
+[DB/Crude] https://webappa.cdc.gov/sasweb/ncipc/mortrate.html
