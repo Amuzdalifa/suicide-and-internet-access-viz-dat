@@ -14,12 +14,9 @@ for f in following:
 	if (not f in followers):
 		friends.append(f)
 
-# for f in friends:
+for f in friends:
 
-# 	query = 'python2 GetOldTweets-python-master/Exporter.py ' + '--username "' + f + '" ' + '--since 2019-01-22 --until 2019-01-24 ' + '--output "results/' + f + '.csv"'
-# 	print(query)
-# 	os.system(query)
-# os.system('echo "Mantap"')
-
-with open("friends.json", 'w') as f:
-    json.dump(friends, f)
+	query = 'python2 GetOldTweets-python-master/Exporter.py ' + '--username "' + f + '" ' + '--since 2018-12-04 --until 2019-01-24 ' + '--output "results/' + f + '.csv"'
+	print(query)
+	os.system(query)
+os.system('echo "Mantap"')
