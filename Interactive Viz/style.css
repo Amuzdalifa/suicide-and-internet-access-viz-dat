@@ -1,0 +1,30 @@
+body {
+	color: white;	
+}
+
+.content-container {
+	height: 90vh;
+	background-color: #111111;
+}
+
+.storyline-container {
+	height: 40vh;
+}
+
+/*.wordcloud-container {
+	height: 65vh;
+}
+
+.tweets-container {
+	height: 35vh;
+}*/
+
+.graphic-and-facts-container {
+	height: 60vh;
+}
+
+.conclusion-container {
+	height: 10vh;
+	background-color: #b90f15;
+	color: white;
+}
