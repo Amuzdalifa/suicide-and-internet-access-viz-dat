@@ -1,10 +1,17 @@
 body {
-	color: white;	
+	height: 100vh;
+	background-color: #000000;
+	color: #827F7F;
+	overflow: hidden;
 }
 
 .content-container {
 	height: 90vh;
-	background-color: #111111;
+	background-color: #000000;
+}
+
+.subcontent-container {
+	height: 100%;
 }
 
 .storyline-container {
@@ -20,11 +27,27 @@ body {
 }*/
 
 .graphic-and-facts-container {
-	height: 60vh;
+	height: 50vh;
+}
+
+#carouselExampleIndicators {
+	height: 100%;
+}
+
+#carouselExampleIndicators .carousel-inner {
+	height: 100%;
+}
+
+#carouselExampleIndicators .carousel-item {
+	height: 100%;
+}
+
+#carouselExampleIndicators img {
+	height: 100%;
 }
 
 .conclusion-container {
 	height: 10vh;
 	background-color: #b90f15;
-	color: white;
+	color: #C9C4C4;
 }
