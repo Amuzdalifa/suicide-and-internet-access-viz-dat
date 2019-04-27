@@ -1,0 +1,14 @@
+body {
+	
+}
+
+.content-container {
+	height: 90vh;
+	background-color: #111111;
+}
+
+.conclusion-container {
+	height: 10vh;
+	background-color: #b90f15;
+	color: white;
+}
