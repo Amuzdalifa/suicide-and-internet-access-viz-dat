@@ -54,13 +54,19 @@ body {
 
 .conclusion-container .words {
 	margin: auto;
+	display: flex;
 	text-align: center;
 }
 
-.conclusion-container h3 {
+.conclusion-container .viz-title {
+	/*display: inline-block;*/
 	margin: auto;
+	font-family: "Impact";
+	font-size: xx-large;
+	letter-spacing: 0.5px;
 }
 
-.conclusion-container p {
+.conclusion-container .viz-conclusion {
+	/*display: inline-block;*/
 	margin: auto;
 }
