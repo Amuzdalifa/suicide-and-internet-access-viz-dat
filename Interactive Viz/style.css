@@ -51,3 +51,16 @@ body {
 	background-color: #b90f15;
 	color: #C9C4C4;
 }
+
+.conclusion-container .words {
+	margin: auto;
+	text-align: center;
+}
+
+.conclusion-container h3 {
+	margin: auto;
+}
+
+.conclusion-container p {
+	margin: auto;
+}
