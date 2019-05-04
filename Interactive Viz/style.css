@@ -6,17 +6,6 @@ body {
 	overflow: hidden;
 }
 
-.btn-special {
-	border-radius: 0px;
-	margin: auto;
-	position: relative;
-	top: 50%;
-	border-color : #b90f15;
-	border-width: 1px;
-	outline: solid;
-	color: #b90f15;
-}
-
 .content-container {
 	height: 90vh;
 	background-color: #000000;
@@ -27,7 +16,15 @@ body {
 }
 
 .mystery-button {
-	background-color: blue;
+	background-color: black;
+	border-radius: 0px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	border-color : #b90f15;
+	border-width: 1px;
+	outline: solid;
+	color: #b90f15;
 }
 
 .storyline-container {
