@@ -196,7 +196,7 @@ var storyline = new Chart(ctx2, {
                             innerHtml += '<tr><td><img src="assets/img/'+ filename +'.png" height=100>' + '</td></tr>';
                             tooltipEl.style.opacity = 0.85;
                         } else {
-                            tooltip.style.opacity = 0;
+                            tooltipEl.style.opacity = 0;
                         }
                     });
                     innerHtml += '</tbody>';
