@@ -36,15 +36,18 @@ body {
 #storyline {
 	/*visibility: hidden;*/
 	transition: ease-in-out;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
-/*.wordcloud-container {
-	height: 65vh;
+.wordcloud-container {
+	height: 90vh;
+	/*visibility: hidden;*/
 }
 
 .tweets-container {
 	height: 35vh;
-}*/
+}
 
 #wordcloud {
 	/*visibility: hidden;*/
