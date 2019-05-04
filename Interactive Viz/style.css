@@ -26,6 +26,10 @@ body {
 	height: 100%;
 }
 
+.mystery-button {
+	background-color: blue;
+}
+
 .storyline-container {
 	height: 40vh;
 }
