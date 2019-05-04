@@ -18,6 +18,10 @@ body {
 	height: 40vh;
 }
 
+#storyline {
+	visibility: hidden;
+}
+
 /*.wordcloud-container {
 	height: 65vh;
 }
@@ -26,30 +30,68 @@ body {
 	height: 35vh;
 }*/
 
+#wordcloud {
+	visibility: hidden;
+}
+
+#wordcloud-button {
+	visibility: hidden;	
+}
+
 .graphic-and-facts-container {
 	height: 50vh;
 }
 
-#carouselExampleIndicators {
+#suicide-internet-chart {
+	visibility: hidden;
+}
+
+#chart-button {
+	visibility: hidden;	
+}
+
+#suicide-internet-chart {
+	visibility: hidden;
+}
+
+#chart-button {
+	visibility: hidden;	
+}
+
+#facts-carousel {
+	height: 100%;
+	visibility: hidden;
+}
+
+#facts-carousel .carousel-inner {
 	height: 100%;
 }
 
-#carouselExampleIndicators .carousel-inner {
+#facts-carousel .carousel-item {
 	height: 100%;
 }
 
-#carouselExampleIndicators .carousel-item {
+#facts-carousel img {
 	height: 100%;
 }
 
-#carouselExampleIndicators img {
-	height: 100%;
+#facts-button {
+	visibility: hidden;
 }
+
 
 .conclusion-container {
 	height: 10vh;
 	background-color: #000000;
 	color: #C9C4C4;
+}
+
+#conclusion {
+	visibility: hidden;	
+}
+
+#conclusion-button {
+	visibility: hidden;
 }
 
 .conclusion-container .words {

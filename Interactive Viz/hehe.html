@@ -76,39 +76,31 @@
 </script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('#storyline').hide();
-		$('#wordcloud-button').hide();
-		$('#wordcloud').hide();
-		$('#chart-button').hide();
-		$('#suicide-internet-chart').hide();
-		$('#facts-button').hide();
-		$('#facts-carousel').hide();
-		$('#conclusion-button').hide();
-		$('#conclusion').hide();
 		$('#storyline-button').on('click', function() {
 			$('#storyline-button').hide();
-			$('#storyline').show();
-			$('#wordcloud-button').show();
+			$('#storyline').css('visibility', 'visible');
+			$('#wordcloud-button').css('visibility', 'visible');
 		});
 		$('#wordcloud-button').on('click', function() {
 			$('#wordcloud-button').hide();
-			$('#wordcloud').show();
-			$('#chart-button').show();
+			$('#wordcloud').css('visibility', 'visible');
+			$('#chart-button').css('visibility', 'visible');
 		});
 		$('#chart-button').on('click', function() {
 			$('#chart-button').hide();
-			$('#suicide-internet-chart').show();
-			$('#facts-button').show();
+			$('#suicide-internet-chart').css('visibility', 'visible');
+			$('#facts-button').css('visibility', 'visible');
 		});
 		$('#facts-button').on('click', function() {
 			$('#facts-button').hide();
-			$('#facts-carousel').show();
-			$('#conclusion-button').show();
+			$('#facts-carousel').css('visibility', 'visible');
+			$('#conclusion-button').css('visibility', 'visible');
+			console.log("yo");
 		});
 		$('#conclusion-button').on('click', function() {
 			$('#conclusion-button').hide();
 			$('.conclusion-container').css('background-color', "#b90f15");
-			$('#conclusion').show();
+			$('#conclusion').css('visibility', 'visible');
 		});
 	});
 </script>
