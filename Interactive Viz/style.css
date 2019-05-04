@@ -1,6 +1,7 @@
 body {
 	height: 100vh;
 	background-color: #000000;
+	background-image: "/assets/img/blood.png";
 	color: #827F7F;
 	overflow: hidden;
 }
@@ -14,6 +15,18 @@ body {
 	height: 100%;
 }
 
+.mystery-button {
+	background-color: black;
+	border-radius: 0px;
+	margin: auto;
+	position: relative;
+	top: 50%;
+	border-color : #b90f15;
+	border-width: 1px;
+	outline: solid;
+	color: #b90f15;
+}
+
 .storyline-container {
 	height: 40vh;
 }
@@ -21,40 +34,80 @@ body {
 #storyline {
 	margin-top: 10px;
 	margin-left: 20px;
+	visibility: hidden;
 }
 
 .wordcloud-container {
 	height: 90vh;
+	visibility: hidden;
 }
 
 .tweets-container {
 	height: 35vh;
 }
 
+#wordcloud {
+	visibility: hidden;
+}
+
+#wordcloud-button {
+	visibility: hidden;	
+}
+
 .graphic-and-facts-container {
 	height: 50vh;
 }
 
-#carouselExampleIndicators {
+#suicide-internet-chart {
+	visibility: hidden;
+}
+
+#chart-button {
+	visibility: hidden;	
+}
+
+#suicide-internet-chart {
+	visibility: hidden;
+}
+
+#chart-button {
+	visibility: hidden;	
+}
+
+#facts-carousel {
+	height: 100%;
+	visibility: hidden;
+}
+
+#facts-carousel .carousel-inner {
 	height: 100%;
 }
 
-#carouselExampleIndicators .carousel-inner {
+#facts-carousel .carousel-item {
 	height: 100%;
 }
 
-#carouselExampleIndicators .carousel-item {
+#facts-carousel img {
 	height: 100%;
 }
 
-#carouselExampleIndicators img {
-	height: 100%;
+#facts-button {
+	visibility: hidden;
 }
+
 
 .conclusion-container {
 	height: 10vh;
 	background-color: #000000;
 	color: #C9C4C4;
+}
+
+#conclusion {
+	visibility: hidden;	
+}
+
+#conclusion-button {
+	visibility: hidden;
 }
 
 .conclusion-container .words {
