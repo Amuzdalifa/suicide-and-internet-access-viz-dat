@@ -18,13 +18,18 @@ body {
 	height: 40vh;
 }
 
-/*.wordcloud-container {
-	height: 65vh;
+#storyline {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.wordcloud-container {
+	height: 90vh;
 }
 
 .tweets-container {
 	height: 35vh;
-}*/
+}
 
 .graphic-and-facts-container {
 	height: 50vh;
