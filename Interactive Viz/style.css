@@ -20,11 +20,13 @@ body {
 	border-radius: 0px;
 	margin: auto;
 	position: relative;
-	top: 50%;
+	top: 45%;
 	border-color : #b90f15;
-	border-width: 1px;
+	border-width: 2px;
 	outline: solid;
+	padding:0.2em 1.5em;
 	color: #b90f15;
+	font-size: 20px;
 }
 
 .storyline-container {
@@ -32,7 +34,8 @@ body {
 }
 
 #storyline {
-	visibility: hidden;
+	/*visibility: hidden;*/
+	transition: ease-in-out;
 }
 
 /*.wordcloud-container {
@@ -44,11 +47,13 @@ body {
 }*/
 
 #wordcloud {
-	visibility: hidden;
+	/*visibility: hidden;*/
+	transition: ease-in-out;
 }
 
 #wordcloud-button {
-	visibility: hidden;	
+	transition: ease-in-out;
+	/*visibility: hidden;	*/
 }
 
 .graphic-and-facts-container {
@@ -56,24 +61,28 @@ body {
 }
 
 #suicide-internet-chart {
-	visibility: hidden;
+	transition: ease-in-out;
+	/*visibility: hidden;*/
 }
 
 #chart-button {
-	visibility: hidden;	
+	transition: ease-in-out;
+	/*visibility: hidden;	*/
 }
 
 #suicide-internet-chart {
-	visibility: hidden;
+	transition: ease-in-out;
+	/*visibility: hidden;*/
 }
 
 #chart-button {
-	visibility: hidden;	
+	transition: ease-in-out;
+	/*visibility: hidden;	*/
 }
 
 #facts-carousel {
 	height: 100%;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 #facts-carousel .carousel-inner {
@@ -89,7 +98,8 @@ body {
 }
 
 #facts-button {
-	visibility: hidden;
+	transition: ease-in-out;
+	/*visibility: hidden;*/
 }
 
 
@@ -100,11 +110,13 @@ body {
 }
 
 #conclusion {
-	visibility: hidden;	
+	transition: ease-in-out;
+	/*visibility: hidden;	*/
 }
 
 #conclusion-button {
-	visibility: hidden;
+	transition: ease-in-out;
+	/*visibility: hidden;*/
 }
 
 .conclusion-container .words {
