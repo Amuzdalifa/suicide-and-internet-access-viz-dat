@@ -20,8 +20,9 @@ var storyline = new Chart(ctx, {
     options: {
         title: {
             display: true,
-            text: ['Kasus mengenaskan yang menimpa', 'Afif Dhia Amru menambah', 'catatan gelap cyberbullying', 'di Indonesia'],
-            fontSize: 14,
+            text: ['Kasus mengenaskan yang menimpa Afif Dhia Amru', 'menambah catatan gelap cyberbullying di Indonesia'],
+            fontSize: 18,
+            fontFamily: 'sans-serif'
         },
     	labels: {
     		display: true

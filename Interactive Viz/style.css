@@ -1,6 +1,7 @@
 body {
 	height: 100vh;
 	background-color: #000000;
+	background-image: "/assets/img/blood.png";
 	color: #827F7F;
 	overflow: hidden;
 }
