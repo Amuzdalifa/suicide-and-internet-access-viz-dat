@@ -50,8 +50,7 @@
 		<div class="col-4">
 			<div class="row wordcloud-container">
 				<button id="wordcloud-button">?????</button>
-				<span id="wordcloud">wordcloud</span>
-				<!-- <img id="wordcloud" src="assets/img/wordcloud-final.png"></img> -->
+				<img id="wordcloud" src="assets/img/wordcloud-final.png" height="580"></img>
 			</div>
 			<!-- <div class="row tweets-container">
 				Tweets
@@ -66,7 +65,7 @@
 			<span class="viz-conclusion">Berkatalah yang baik atau diam.</span>
 		</div>
 	</div>
-	<script type="text/javascript" src="assets/storyline.js"></script>
+	<!-- <script type="text/javascript" src="assets/storyline.js"></script> -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -76,39 +75,31 @@
 </script>
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('#storyline').hide();
-		$('#wordcloud-button').hide();
-		$('#wordcloud').hide();
-		$('#chart-button').hide();
-		$('#suicide-internet-chart').hide();
-		$('#facts-button').hide();
-		$('#facts-carousel').hide();
-		$('#conclusion-button').hide();
-		$('#conclusion').hide();
 		$('#storyline-button').on('click', function() {
 			$('#storyline-button').hide();
-			$('#storyline').show();
-			$('#wordcloud-button').show();
+			$('#storyline').css('visibility', 'visible');
+			$('#wordcloud-button').css('visibility', 'visible');
 		});
 		$('#wordcloud-button').on('click', function() {
 			$('#wordcloud-button').hide();
-			$('#wordcloud').show();
-			$('#chart-button').show();
+			$('#wordcloud').css('visibility', 'visible');
+			$('#chart-button').css('visibility', 'visible');
 		});
 		$('#chart-button').on('click', function() {
 			$('#chart-button').hide();
-			$('#suicide-internet-chart').show();
-			$('#facts-button').show();
+			$('#suicide-internet-chart').css('visibility', 'visible');
+			$('#facts-button').css('visibility', 'visible');
 		});
 		$('#facts-button').on('click', function() {
 			$('#facts-button').hide();
-			$('#facts-carousel').show();
-			$('#conclusion-button').show();
+			$('#facts-carousel').css('visibility', 'visible');
+			$('#conclusion-button').css('visibility', 'visible');
+			console.log("yo");
 		});
 		$('#conclusion-button').on('click', function() {
 			$('#conclusion-button').hide();
 			$('.conclusion-container').css('background-color', "#b90f15");
-			$('#conclusion').show();
+			$('#conclusion').css('visibility', 'visible');
 		});
 	});
 </script>
