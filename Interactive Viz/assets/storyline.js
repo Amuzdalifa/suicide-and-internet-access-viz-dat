@@ -68,7 +68,7 @@ var storyline = new Chart(ctx, {
                         console.log(title[0])
                         filename = title[0] + title [1]
                         if ((filename == '21') || (filename == '20') || (filename == '29')) {
-                            innerHtml += '<tr><td><img src="assets/'+ filename +'.png" height=100>' + '</td></tr>';
+                            innerHtml += '<tr><td><img src="assets/img/'+ filename +'.png" height=100>' + '</td></tr>';
                             tooltipEl.style.opacity = 0.85;
                         } else {
                             tooltip.style.opacity = 0;
