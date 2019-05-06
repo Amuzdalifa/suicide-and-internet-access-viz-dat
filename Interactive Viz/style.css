@@ -20,7 +20,7 @@ body {
 	border-radius: 0px;
 	margin: auto;
 	position: relative;
-	top: 45%;
+	/*top: 45%;*/
 	border-color : #b90f15;
 	border-width: 2px;
 	outline: solid;
@@ -52,6 +52,7 @@ body {
 #wordcloud {
 	/*visibility: hidden;*/
 	transition: ease-in-out;
+	margin: auto;
 }
 
 #wordcloud-button {
