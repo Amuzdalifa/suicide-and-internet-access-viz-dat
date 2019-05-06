@@ -13,7 +13,9 @@
 		<div class="col-8 subcontent-container">
 			<div class="row storyline-container">
 				<button id="storyline-button" class="btn mystery-button">?</button>
-				<canvas id="storyline" width="750" height="200"></canvas>
+				<div id="storyline-div">
+					<canvas id="storyline" width="750" height="200"></canvas>
+				</div>
 			</div>
 			<div class="row graphic-and-facts-container">
 				<div class="col-3" style="height: 100%">
@@ -46,7 +48,9 @@
 				<div class="col-9" style="height: 100%">
 					<div class="row" style="height: 100%; padding-left: 1.5em;">
 						<button id="chart-button" class="btn mystery-button">?</button>
-						<canvas id="suicide-internet-chart"></canvas>
+						<div id="chart-div">
+							<canvas id="suicide-internet-chart"></canvas>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -70,11 +74,11 @@
 		</div>
 	</div>
 	<script type="text/javascript">
-		$('#storyline').hide();
+		$('#storyline-div').hide();
 		$('#wordcloud-button').hide();
 		$('#wordcloud').hide();
 		$('#chart-button').hide();
-		$('#suicide-internet-chart').hide();
+		$('#chart-div').hide();
 		$('#facts-button').hide();
 		$('#facts-carousel').hide();
 		$('#conclusion-button').hide();
@@ -93,7 +97,7 @@
 	$(document).ready(function() {
 		$('#storyline-button').on('click', function() {
 			$('#storyline-button').hide();
-			$('#storyline').fadeIn(2000);
+			$('#storyline-div').fadeIn(2000);
 			$('#wordcloud-button').fadeIn(2000);
 			// $('#wordcloud-button').css('visibility', 'visible');
 		});
@@ -106,7 +110,7 @@
 		});
 		$('#chart-button').on('click', function() {
 			$('#chart-button').hide();
-			$('#suicide-internet-chart').fadeIn(2000);
+			$('#chart-div').fadeIn(2000);
 			$('#facts-button').fadeIn(2000);
 			// $('#suicide-internet-chart').css('visibility', 'visible');
 			// $('#facts-button').css('visibility', 'visible');

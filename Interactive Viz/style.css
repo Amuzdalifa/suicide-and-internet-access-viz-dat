@@ -35,9 +35,14 @@ body {
 	height: 40vh;
 }
 
+#storyline-div {
+	transition: ease-in-out;
+	height: 100%;
+	width: 100%;
+}
+
 #storyline {
 	/*visibility: hidden;*/
-	transition: ease-in-out;
 	margin-top: 10px;
 	margin-left: 20px;
 }
@@ -76,9 +81,10 @@ body {
 	/*visibility: hidden;	*/
 }
 
-#suicide-internet-chart {
+#chart-div {
 	transition: ease-in-out;
-	/*visibility: hidden;*/
+	height: 100%;
+	width: 100%;
 }
 
 #chart-button {
