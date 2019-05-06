@@ -1,4 +1,6 @@
 body {
+	margin-left: 1.5em;
+	margin-right: 1.5em;
 	height: 100vh;
 	background-color: #000000;
 	background-image: "/assets/img/blood.png";
