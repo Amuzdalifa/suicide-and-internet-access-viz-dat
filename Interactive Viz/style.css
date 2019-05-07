@@ -6,6 +6,13 @@ body {
 	overflow: hidden;
 }
 
+h1 {
+	margin: auto;
+	font-family: "Impact";
+	letter-spacing: 0.05em;
+	color: #b90f15;
+}
+
 .content-container {
 	height: 90vh;
 	background-color: #000000;
@@ -33,6 +40,12 @@ body {
 	height: 40vh;
 }
 
+
+#storyline-title {
+	transition: ease-in-out;
+	margin: auto;
+}
+
 #storyline-div {
 	transition: ease-in-out;
 	height: 100%;
@@ -47,6 +60,8 @@ body {
 
 .wordcloud-container {
 	height: 90vh;
+	margin-left: 5.0em;
+	margin-right: 1.0em;
 	/*visibility: hidden;*/
 }
 

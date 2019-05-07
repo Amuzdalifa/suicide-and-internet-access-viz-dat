@@ -8,11 +8,12 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>v
+<body>
 	<div class="row content-container">
 		<div class="col-8 subcontent-container">
 			<div class="row storyline-container">
 				<button id="storyline-button" class="btn mystery-button">?</button>
+				<h1 id="storyline-title" align="center">AFIF DHIA AMRU?</h1>
 				<div id="storyline-div">
 					<canvas id="storyline" width="750" height="200"></canvas>
 				</div>
@@ -21,6 +22,7 @@
 				<div class="col-3" style="height: 100%">
 					<div class="row" style="height: 100%">
 						<button id="facts-button" class="btn mystery-button">?</button>
+						<h1 id="facts-title" align="center">LEBIH BANYAK</h1>
 						<div id="facts-carousel" class="carousel slide" data-ride="carousel">
 						  <ol class="carousel-indicators">
 						    <li data-target="#facts-carousel" data-slide-to="0" class="active"></li>
@@ -48,6 +50,7 @@
 				<div class="col-9" style="height: 100%">
 					<div class="row" style="height: 100%; padding-left: 1.5em;">
 						<button id="chart-button" class="btn mystery-button">?</button>
+						<h1 id="chart-title" align="center">ANGKA BUNUH DIRI DAN AKSES INTERNET?</h1>
 						<div id="chart-div">
 							<canvas id="suicide-internet-chart"></canvas>
 						</div>
@@ -58,6 +61,7 @@
 		<div class="col-4">
 			<div class="row wordcloud-container">
 				<button id="wordcloud-button" class="btn mystery-button">?</button>
+				<h1 id="wordcloud-title" align="center">BAGAIMANA TANGGAPAN WARGANET?</h1>
 				<img id="wordcloud" src="assets/img/wordcloud-final.png" style="height: 100%;"></img>
 			</div>
 			<!-- <div class="row tweets-container">
@@ -74,12 +78,16 @@
 		</div>
 	</div>
 	<script type="text/javascript">
+		$('#storyline-title').hide();
 		$('#storyline-div').hide();
 		$('#wordcloud-button').hide();
+		$('#wordcloud-title').hide();
 		$('#wordcloud').hide();
 		$('#chart-button').hide();
+		$('#chart-title').hide();
 		$('#chart-div').hide();
 		$('#facts-button').hide();
+		$('#facts-title').hide();
 		$('#facts-carousel').hide();
 		$('#conclusion-button').hide();
 		$('#conclusion').hide();
@@ -93,35 +101,45 @@
 <script type="text/javascript">
 	var ctx = $('#suicide-internet-chart');
 </script>
+<script>
+	function sleep(milliseconds) {
+	  var start = new Date().getTime();
+	  for (var i = 0; i < 1e7; i++) {
+	    if ((new Date().getTime() - start) > milliseconds){
+	      break;
+	    }
+	  }
+	}
+</script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		$('#storyline-button').on('click', function() {
 			$('#storyline-button').hide();
-			$('#storyline-div').fadeIn(2000);
-			$('#wordcloud-button').fadeIn(2000);
-			// $('#wordcloud-button').css('visibility', 'visible');
+			$('#storyline-title').fadeIn(2000);
+			$('#storyline-title').delay(2000).fadeOut(2000);
+			$('#storyline-div').delay(6000).fadeIn(2000);
+			$('#wordcloud-button').delay(10000).fadeIn(2000);
 		});
 		$('#wordcloud-button').on('click', function() {
 			$('#wordcloud-button').hide();
-			$('#wordcloud').fadeIn(2000);
-			$('#chart-button').fadeIn(2000);
-			// $('#wordcloud').css('visibility', 'visible');
-			// $('#chart-button').css('visibility', 'visible');
+			$('#wordcloud-title').fadeIn(2000);
+			$('#wordcloud-title').delay(2000).fadeOut(2000);
+			$('#wordcloud').delay(6000).fadeIn(2000);
+			$('#chart-button').delay(10000).fadeIn(2000);
 		});
 		$('#chart-button').on('click', function() {
 			$('#chart-button').hide();
-			$('#chart-div').fadeIn(2000);
-			$('#facts-button').fadeIn(2000);
-			// $('#suicide-internet-chart').css('visibility', 'visible');
-			// $('#facts-button').css('visibility', 'visible');
+			$('#chart-title').fadeIn(2000);
+			$('#chart-title').delay(2000).fadeOut(2000);
+			$('#chart-div').delay(6000).fadeIn(2000);
+			$('#facts-button').delay(10000).fadeIn(2000);
 		});
 		$('#facts-button').on('click', function() {
 			$('#facts-button').hide();
-			$('#facts-carousel').fadeIn(2000);
-			$('#conclusion-button').fadeIn(2000);
-			// $('#facts-carousel').css('visibility', 'visible');
-			// $('#conclusion-button').css('visibility', 'visible');
-			console.log("yo");
+			$('#facts-title').fadeIn(2000);
+			$('#facts-title').delay(2000).fadeOut(2000);
+			$('#facts-carousel').delay(6000).fadeIn(2000);
+			$('#conclusion-button').delay(10000).fadeIn(2000);
 		});
 		$('#conclusion-button').on('click', function() {
 			$('#conclusion-button').hide();
@@ -143,7 +161,6 @@
 	//         op += op * 0.1;
 	//     }, 10);
 	// }
-
 </script>
 </body>
 </html>
