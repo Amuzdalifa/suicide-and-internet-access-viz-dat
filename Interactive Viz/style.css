@@ -59,14 +59,19 @@ h1 {
 }
 
 .wordcloud-container {
-	height: 90vh;
-	margin-left: 5.0em;
-	margin-right: 1.0em;
+	height: 70vh;
+	width: 100%;
 	/*visibility: hidden;*/
 }
 
-.tweets-container {
-	height: 35vh;
+#tweets-container {
+	height: 20vh;
+	transition: ease-in-out;
+	overflow-y: scroll;
+}
+
+#tweets-container td {
+	border-bottom-color: #ffffff;
 }
 
 #wordcloud {
