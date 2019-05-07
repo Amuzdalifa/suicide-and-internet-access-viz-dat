@@ -66,12 +66,13 @@ h1 {
 
 #tweets-container {
 	height: 20vh;
+	padding-bottom: 1.0em;
 	transition: ease-in-out;
 	overflow-y: scroll;
 }
 
 #tweets-container td {
-	border-bottom-color: #ffffff;
+	border-bottom-color: #ffffff !important;
 }
 
 #wordcloud {
