@@ -95,6 +95,7 @@ var internet_suicide = new Chart(ctx, {
 var ctx2 = document.getElementById('storyline').getContext('2d');
 var storyline = new Chart(ctx2, {
     type: 'line',
+    scaleFontColor: '#b90f15',
     data: {
         labels: [['10 Desember 2018', 'Melalui twitter', 'terindikasi bahwa' ,'kisah cinta berakhir'], 
         ['29 Desember 2018', 'Menulis cuitan bye'], 
@@ -108,7 +109,7 @@ var storyline = new Chart(ctx2, {
             showLine:true,
             pointRadius: 15,
             pointHoverRadius: 15,
-            pointBackgroundColor: '#b90f15'
+            pointBackgroundColor: '#b90f15',
         }]
     },
     options: {
@@ -190,8 +191,9 @@ var storyline = new Chart(ctx2, {
             display: false
         },
         scales: {
+            fontColor: '#b90f15',
             yAxes: [{
-                display: false,
+                display: true,
                 ticks: {
                     display: false,
                     beginAtZero: true
