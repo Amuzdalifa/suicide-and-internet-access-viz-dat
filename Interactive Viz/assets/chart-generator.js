@@ -16,19 +16,19 @@ var internet_suicide = new Chart(ctx, {
         datasets: [{
             backgroundColor: '#b90f15',
             borderColor: '#b90f15',
-            data: us,
-            label: 'Amerika',
-            yAxisID: 'B',
-            fill: false
-        },{
-            backgroundColor: '#b90f15',
-            borderColor: '#b90f15',
             // borderWidth: '10px',
             data: ina,
             label: 'Indonesia', 
             yAxisID: 'B',
             fill: false
-        }, {
+        },{
+            backgroundColor: '#323232',
+            borderColor: '#323232',
+            data: us,
+            label: 'Amerika',
+            yAxisID: 'B',
+            fill: false
+        },{
             backgroundColor: 'rgba(140, 133, 133, 0.6)',
             borderColor: 'fffff',
             data: us_suicide,
@@ -43,7 +43,7 @@ var internet_suicide = new Chart(ctx, {
             display: true
         }, 
         legend: {
-            display: false,
+            display: true,
             fullWidth: false
         },
         scales: {
