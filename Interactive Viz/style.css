@@ -216,7 +216,7 @@ input {
     font-weight: bold;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:#b90f15;
+    color:#b90f1588;
     font-weight: bold;
 }
 
