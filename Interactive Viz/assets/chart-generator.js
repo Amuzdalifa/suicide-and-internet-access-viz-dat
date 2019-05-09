@@ -17,7 +17,7 @@ var internet_suicide = new Chart(ctx, {
             backgroundColor: '#b90f15',
             borderColor: '#b90f15',
             data: us,
-            label: 'Akses Internet Amerika',
+            label: 'Amerika',
             yAxisID: 'B',
             fill: false
         },{
@@ -25,7 +25,7 @@ var internet_suicide = new Chart(ctx, {
             borderColor: '#b90f15',
             // borderWidth: '10px',
             data: ina,
-            label: 'Akses Internet Indonesia', 
+            label: 'Indonesia', 
             yAxisID: 'B',
             fill: false
         }, {

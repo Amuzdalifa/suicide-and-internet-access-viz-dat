@@ -1,7 +1,7 @@
 body {
 	height: 100vh;
 	background-color: #000000;
-	background-image: "/assets/img/blood.png";
+	background-image: 'assets/img/blood.png';
 	color: #827F7F;
 	overflow: hidden;
 }
@@ -11,6 +11,27 @@ h1 {
 	font-family: "Impact";
 	letter-spacing: 0.05em;
 	color: #b90f15;
+}
+
+* {box-sizing: border-box;}
+
+.wordcloud-container {
+  position: relative;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid grey;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid grey;
+  /*set the size of the result div:*/
+  width: 200px;
+  height: 200px;
 }
 
 .content-container {
