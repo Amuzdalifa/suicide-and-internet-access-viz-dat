@@ -35,7 +35,7 @@ h1 {
 }
 
 .content-container {
-	height: 90vh;
+	height: 92vh;
 	background-color: #000000;
 }
 
@@ -86,10 +86,21 @@ h1 {
 }
 
 #tweets-container {
-	height: 20vh;
+	height: 21vh;
+	width: 100%;
 	padding-bottom: 1.0em;
 	transition: ease-in-out;
 	overflow-y: scroll;
+}
+
+#tweets-container table {
+	width: 100%;
+}
+
+#tweets-container th {
+	position: sticky;
+	top: 0;
+	border-top: #000000;
 }
 
 #tweets-container td {
@@ -158,7 +169,7 @@ h1 {
 
 
 .conclusion-container {
-	height: 10vh;
+	height: 8vh;
 	background-color: #000000;
 	color: #C9C4C4;
 }
